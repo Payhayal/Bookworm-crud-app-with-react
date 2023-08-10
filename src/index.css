@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(/public/rb.jpg) ;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container {
+  width: 80%;
+  min-height: 90vh ;
+  display: flex;
+  flex-direction: column;
+}
+.container button {
+  border-radius: 10px;
+}
+.container input {
+  width: 650px;
+}
+.navvbar {
+  background-image: linear-gradient(120deg, #84fab0 0%, #73c9f4 100%);
+  
+}
+.delete-modal {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100vh;
+ background: rgba(128, 128, 128, 0.435);
+ display: grid;
+ place-items: center;
+ z-index: 999;
+}
+.modal-inner {
+background-color: white;
+padding: 70px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.books {
+  background-color: #a4f2c1;
+  width: 650px;
+}
+
