@@ -1,4 +1,4 @@
-#This is a crud app (create-read-update-delete) created with HTML, CSS and REACT.
+#This is a crud app (create-read-update-delete) created with HTML, CSS, JS and REACT.
 
 #I also used React-Toastify for the notifications.
 
